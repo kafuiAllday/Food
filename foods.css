@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+.mid{
+    width: 600px;
+    background-color: black;
+    color: white;
+    opacity: .5;
+    border-radius: 8px;
+}
+.banner{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(food2.jpg);
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+
+}
+.content h2{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+.content p{
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+.content a{
+    font-size: 1em;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 12px 25px;
+    background-color: rgb(187, 14, 14);
+    letter-spacing: 1.9px;
+    border-radius: 3px;
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    z-index: 10;
+}
+header ul li{
+    display: inline;
+
+}
+header h2{
+    color: brown;
+    font-weight: 2em;
+    margin-left: 20px;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+header .btn{
+    display: none;
+    
+}
+
+section{
+    padding: 100px;
+}
+.row{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col{
+    width: 48%;
+    position: relative;
+}
+
+.row .col .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+} 
+.row .col .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row .col h2{
+    font-size: 2em;
+    font-weight: 300;
+    color: brown;
+}
+.row .col p{
+    letter-spacing: 1px;
+    margin-top: 10px;
+    
+}
+hr{
+    width: 84%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-decoration-thickness: 0.3em;
+}
+
+.menu{
+    width: 100%; 
+    
+}
+ .title h2{
+    color: brown;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.title p{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .food-box{
+    width: 320px;
+    height: 320px;
+    border: 1px solid black;
+    margin: 30px;
+    border: 15px solid white;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.3);
+}
+.food-box .box1{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.food-box .box1 img{
+    width: 100%;
+    height: 90%;    
+    object-fit: cover;
+}
+.food-box h3{
+    color: #777;
+    margin-top: -20px;  
+}
+.chef h2{
+    text-align: center;
+    font-size: 3rem;
+    color: brown;
+    font-weight: 300;
+}
+
+.container .chef-bx{
+    width: 320px;
+    height: 360px;
+    margin: 20px;
+}
+.chef-bx .chef-img{
+    width: 100%;
+    height: 100%;
+}
+.chef-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.chef .container{
+    padding-top: 30px;
+
+}
+.chef-bx .name{
+    padding: 10px 0 10px;
+    color: brown;
+    font-weight: 300;
+}
+.chef{
+    background-color: rgb(243, 243, 243);
+}
+.cont-text{
+    display: flex;
+    justify-content: center;
+}
+.cont-text h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: brown;
+}
+.contact-form{
+    margin-top: 50px;
+    padding: 50px 40px;
+    background-color: #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.3);
+    max-width: 500px;
+    
+}
+.contact{
+    background: url(food11.jpg);
+    background-size: cover;
+}
+.contact-form h3{
+    color: brown;
+   margin-left: 10px;
+   font-weight: 300;
+   font-size: 1.4rem;
+}
+.contact-form input-bx{
+    position: relative;
+    width: 100%;
+}
+.contact input,
+.contact textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    color: #777;
+    font-size: 16px;
+    outline: 0;
+}
+.contact input[type='button']{
+    display: inline-block;
+    max-width: 100px;
+    background-color: brown;
+    color: whitesmoke;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-weight: 300;
+}
+.copyrightText{
+    min-height: 7vh;
+    text-align: center;
+    background-color: #333;
+}
+.copyrightText p{
+    font-size: 15px;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+header .btn{
+    display: none;
+}
+@media (max-width:820px){
+    header{
+        background-color: rgb(255, 224, 185);
+    
+    }
+    header ul{   
+    position: fixed;
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    height: 100%;
+    font-size: 1.4rem;
+    transform: translateX(180%);
+    transition: transform ease 3ms;
+}
+
+
+
+header .btn{
+        display: block;
+        color: burlywood;
+        font-size: 18px;
+        border: 0;
+        background-color: brown;
+    }
+    header ul.move{
+        transform: translateX(0);
+    }
+
+    header ul li{
+        margin: 20px;
+        
+    }
+    header ul li a{
+        color:brown;
+
+    }
+  
+    
+    .row{   
+        display: flex;
+        flex-direction: column; 
+    }
+    .row .col{
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .container .chef-bx{
+        margin: 30px;
+    }
+    .container .food-box{
+        width: 280px;
+        height: 280px;
+        margin: 15px;
+        border: 11px solid white;
+        box-shadow: 0 3px 18px rgba(0,0,0,0.3);
+}
+.banner .content{
+    max-width: 600px;
+
+} 
+.content h2{
+    font-size: 3rem;
+}
+.mid {
+    width: 400px;
+}
+section{
+    padding: 60px;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.chef h2{
+    font-size: 2rem;
+}
+
+.chef .container{
+    padding-top: 20px;
+
+}
+.contact-form{
+    margin-top: 40px;
+    padding: 40px 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.3);
+    max-width: 500px;
+    
+}
+
+
+}
+
+
+@media (max-width:480px){
+    section .contact{
+        padding: 40px;
+    }
+    .cont-text h2{
+        font-size: 2rem;
+    }
+    .contact-form{
+        margin-top: 20px;
+        padding: 30px 20px;
+        box-shadow: 0 5px 35px rgba(0,0,0,0.3);
+        max-width: 400px;
+        
+    }
+    .content h2{
+        font-size: 2.3rem;
+    }
+    .content p{
+        font-size: .9rem;
+    }
+    .row .col h2{
+        font-size: 1.6rem;
+    }
+    .row .col p{
+        font-size: .8rem;
+    }
+    .row .col .imgBx{
+        position: relative;
+        height: 200px;
+    }   
+    .container .food-box{
+        width: 240px;
+        height: 240px;
+        margin: 15px;
+        border: 10px solid white;
+        box-shadow: 0 3px 18px rgba(0,0,0,0.3);
+} 
+.title h2{
+    font-size: 2rem;
+}
+.title p{
+    font-size: .9rem;
+}
+.mid {
+    width: 300px;
+}
+.contact-form{
+    margin-top: 20px;
+    padding: 20px 30px;
+    max-width: 400px;
+    
+}
+.cont-text h2{
+    font-size: 1.8rem;
+
+}
+section{
+    padding: 20px;
+}
+.content a {
+    font-size: .8rem;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px 21px;
+    background-color: rgb(187, 14, 14);
+    letter-spacing: 1.2px;
+    border-radius: 3px;
+}
+    
+
+}
+
+
+    
+   
+    
+
+        
+    
+
+
+    
+
+
+
+   
+
+
+
+
+
+
+
+
